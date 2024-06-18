@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Landing Page - Start Bootstrap Theme</title>
+        <title>Home</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -24,6 +24,7 @@
         class="navbar navbar-expand-sm navbar-light bg-light"
        >
         <div class="container">
+            <img src="Iconos/samurai2.jpg" alt="" class="usuario">
             <a class="navbar-brand" href="index.HTML">Login</a>
             <button
                 class="navbar-toggler d-lg-none"
@@ -59,23 +60,33 @@
                             class="dropdown-menu"
                             aria-labelledby="dropdownId"
                         >
-                            <a class="dropdown-item" href="dormitorio.html"
-                                >Dormitorio</a
+                            <a class="dropdown-item" href="hogar.html"
+                                >Hogar</a
                             >
-                            <a class="dropdown-item" href="#"
-                                >Cocina</a
+                
+                            <a class="dropdown-item" href="jardin.html"
+                                >Jardín</a
                             >
-                            <a class="dropdown-item" href="#"
-                                >Baterias y Sartenes</a
+                            <a class="dropdown-item" href="elctronica.html"
+                                >Electronica</a
                             >
-                            <a class="dropdown-item" href="#"
-                                >Complementos de Mesa</a
+                            <a class="dropdown-item" href="damas.html"
+                                >Damas</a
                             >
-                            <a class="dropdown-item" href="#"
-                                >Utensilios de Cocina</a
+                            <a class="dropdown-item" href="caballeros.html"
+                                >Caballeros</a
                             >
-                            <a class="dropdown-item" href="#"
-                                >Vajillas</a
+                            <a class="dropdown-item" href="infantil.html"
+                                >Infantíl</a>
+
+                            <a class="dropdown-item" href="joyeria.html"
+                                >Joyeria</a
+                            >
+                            <a class="dropdown-item" href="calzado.html"
+                                >Calzado</a
+                            >
+                            <a class="dropdown-item" href="bebes.html"
+                                >Bebés</a
                             >
                         </div>
                     </li>
@@ -97,7 +108,7 @@
         </div>
        </nav>
        
-       <h1 class="text-center">Lo mejor que econtraras para tu hogar</h1>
+       <h1 class="text-center">¡Las mejores ofertas en un solo lugar!</h1>
        
        <div class="container">
         <div class="row">
@@ -111,7 +122,6 @@
                             class="active"
                             aria-current="true"
                             aria-label="First slide"
-                            title=
                         ></li>
                         <li
                             data-bs-target="#carouselId"
@@ -134,34 +144,36 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active ">
                             <img
-                                src="Imagenes/al.webp"
+                                src="Imagenes/bocinajbl.webp"
                                 class="w-100 d-block"
                                 alt="First slide"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="dormitorio.html"><h6>Compralo ya</h6></a>
+                                style="height: 400px;"
                                 
-                            </div>
-                             </div>
+                            />
+                            
+                        </div>
                         <div class="carousel-item">
                             <img
-                                src="Imagenes/cubre.webp"
+                                src="Imagenes/relojes.webp"
                                 class="w-100 d-block"
                                 alt="Second slide"
+                                style="height: 400px;"
                             />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="Imagenes/dor.webp"
+                                src="Imagenes/lavanderia.jpg"
                                 class="w-100 d-block"
                                 alt="Third slide"
+                                style="height: 400px;"
                             />
                         </div>
                         <div class="carousel-item">
                             <img
-                                src="Imagenes/sab.webp"
+                                src="Imagenes/audifonos.webp"
                                 class="w-100 d-block"
                                 alt="Fourth slide"
+                                style="height: 400px;"
                             />
                         </div>
                         
@@ -186,10 +198,7 @@
                     </button>
                 </div>
             </div>
-            <div class="d-flex justify-content-center mt-2" id="boton">
-                <a href="dormitorio.html" class="btn btn-primary">Compra ya</a>
-            </div>
-            
+ 
         </div>
         
         
@@ -197,14 +206,28 @@
 
        <div class="container">
         <div class="row">
-            <div class="container mt-2">
-                <div class="card">
-                    <img class="card-img-top" src="Imagenes/coci.webp" alt="Card image">
+            <div class="col mt-2">
+                <div class="card card_left" >
+                    <img class="card-img-top cards" src="Imagenes/joyeria-pot.webp" alt="Card image" >
                     <div class="card-body">
                       
-                      <p class="card-text">Aqui podra encontrar los mejores articulos para cocina al mejor precio</p>
+                      <p class="card-text">Encuentra las mejores ofertas en
+                        joyeria de oro y plata, bisuteria y mucho mas
+                      </p>
                       <div class="d-flex justify-content-center mt-2">
-                        <a href="dormitorio.html" class="btn btn-primary">Compralos ya</a>
+                        <a href="joyeria.html" class="btn btn-primary">Joyeria</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mt-2">
+                <div class="card card_right">
+                    <img class="card-img-top cards" src="Imagenes/zapatos.jpg" alt="Card image">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Las mejores ofertas y calzado para dama y caballero</p>
+                      <div class="d-flex justify-content-center mt-2">
+                        <a href="calzado.html" class="btn btn-primary">Calzado</a>
                       </div>
                     </div>
                   </div>
@@ -212,25 +235,25 @@
         </div>
         <div class="row">
             <div class="col mt-2">
-                <div class="card" style=" float: right; flex: auto;">
-                    <img class="card-img-top" src="Imagenes/bat.webp" alt="Card image">
+                <div class="card card_left" >
+                    <img class="card-img-top cards" src="Imagenes/bocinajbl.webp" alt="Card image">
                     <div class="card-body">
                       
-                      <p class="card-text">Cansado de que se pegue la comida al sarten por ser de mala calidad? Tenemos de los mejores y a mejor precio </p>
+                      <p class="card-text">Lo mejor en audio, celulares, pantallas y mucho más</p>
                       <div class="d-flex justify-content-center mt-2">
-                        <a href="#" class="btn btn-primary">Compralos ya</a>
+                        <a href="elctronica.html" class="btn btn-primary">Electronica</a>
                       </div>
                     </div>
                   </div>
             </div>
             <div class="col mt-2">
-                <div class="card" style=" float: left;">
-                    <img class="card-img-top" src="Imagenes/com.webp" alt="Card image">
+                <div class="card card_right" >
+                    <img class="card-img-top cards" src="Imagenes/bebes.webp" alt="Card image">
                     <div class="card-body">
                       
-                      <p class="card-text">Para poder presumir tu comedor te ofrecermos los mejores arreglos de mesa a los mejores precios del mercado</p>
+                      <p class="card-text">Conciente a los reyes de la casa con las mejores ofertas</p>
                       <div class="d-flex justify-content-center mt-2">
-                        <a href="#" class="btn btn-primary">Compralos ya</a>
+                        <a href="bebes.html" class="btn btn-primary">Bebés</a>
                       </div>
                     </div>
                   </div>
@@ -238,25 +261,77 @@
         </div>
         <div class="row">
             <div class="col mt-2">
-                <div class="card" style=" float: right; flex: auto;">
-                    <img class="card-img-top" src="Imagenes/ut.webp" alt="Card image">
+                <div class="card card_left">
+                    <img class="card-img-top cards" src="Imagenes/cocina.jpg" alt="Card image">
                     <div class="card-body">
                       
-                      <p class="card-text">Te falta un rodillo para preparar la mejor pizza de la noche? o un mezclador para hacer la mejor creme brulee de la noche? pues no esperes tenemos todo eso y mas a los mejores precios.</p>
+                      <p class="card-text">Los mejores electrodomesticos a los mejores precios</p>
                       <div class="d-flex justify-content-center mt-2">
-                        <a href="#" class="btn btn-primary">Compralos ya</a>
+                        <a href="linea-blanca.html" class="btn btn-primary">Linea Blanca</a>
                       </div>
                     </div>
                   </div>
             </div>
             <div class="col mt-2">
-                <div class="card" style=" float: left;">
-                    <img class="card-img-top" src="Imagenes/vaj.webp" alt="Card image">
+                <div class="card card_right">
+                    <img class="card-img-top cards" src="Imagenes/cama.webp" alt="Card image">
                     <div class="card-body">
                       
-                      <p class="card-text">Sin duda nuestros arreglos para mesa son los mejores, pero que serian estos sin las mejores vajillas? pues las tenemos y al mejor precio que puedas encontrar en cualquier parte del mercado asegurandote ser el mejor anfitrion de la noche</p>
+                      <p class="card-text">Las mejores ofertas para tu hogar y en especial tu dormitorio</p>
                       <div class="d-flex justify-content-center mt-2">
-                        <a href="#" class="btn btn-primary">Compralos ya</a>
+                        <a href="hogar.html" class="btn btn-primary">Hogar</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-2">
+                <div class="card card_left" >
+                    <img class="card-img-top cards" src="Imagenes/podadora.jpg" alt="Card image">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Encuentra las mejores ofertas con nosotros par atu jardin</p>
+                      <div class="d-flex justify-content-center mt-2">
+                        <a href="jardin.html" class="btn btn-primary">Jardín</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mt-2">
+                <div class="card card_right">
+                    <img class="card-img-top cards" src="Imagenes/cartera.webp" alt="Card image">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Las mejores ofertas para ellas las encuentras aquí</p>
+                      <div class="d-flex justify-content-center mt-2">
+                        <a href="damas.html" class="btn btn-primary">Damas</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-2">
+                <div class="card card_left">
+                    <img class="card-img-top cards" src="Imagenes/traje.webp" alt="Card image">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Las mejores ofertas para ellos las encuentras aquí</p>
+                      <div class="d-flex justify-content-center mt-2">
+                        <a href="caballeros.html" class="btn btn-primary">Caballeros</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col mt-2">
+                <div class="card card_right">
+                    <img class="card-img-top cards" src="Imagenes/niña.webp" alt="Card image">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Consiente a los pequeñines del hogar con estas grandiosas ofertas</p>
+                      <div class="d-flex justify-content-center mt-2">
+                        <a href="infantil.html" class="btn btn-primary">Infantíl</a>
                       </div>
                     </div>
                   </div>
@@ -309,6 +384,9 @@
         <script src="startbootstrap-landing-page-gh-pages/js/scripts.js"></script>
     </body>
 </html>
+
+
+
 
 
 
